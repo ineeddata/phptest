@@ -4,9 +4,7 @@ $var = $_GET['a'];
 $b = $var;
 
 if ($mode) {
-    if ($foo) {
-        $b = test($var);
-    }
+    $b = test($var);
 } else {
     $b = test($var);
 }

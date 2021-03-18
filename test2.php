@@ -19,9 +19,7 @@ $var = $_GET['a'];
 $b = $var;
 
 if ($mode) {
-    if ($foo) {
-        $b = htmlentities($var);
-    }
+    $b = htmlentities($var);
 } else {
     $b = htmlentities($var);
 }
@@ -34,9 +32,7 @@ $var = $_GET['a'];
 $b = $_GET['b'];
 
 if ($mode) {
-    if ($foo) {
-        $b .= htmlentities($var);
-    }
+    $b .= htmlentities($var);
 } else {
     $b .= htmlentities($var);
 }
@@ -49,9 +45,7 @@ $var = $_GET['a'];
 $b = $var;
 
 if ($mode) {
-    if ($foo) {
-        $b = $var;
-    }
+    $b = $var;
 } else {
     $b = $var;
 }
