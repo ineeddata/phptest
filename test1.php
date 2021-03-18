@@ -12,4 +12,19 @@ if ($mode) {
     $html .= 'https://' . $var;
 }
 
-echo ($html);
+echo $html;
+
+/*//////////////////Patch////////////////*/
+
+$var = $_GET['a'];
+$b = $var;
+
+if ($mode) {
+    if ($foo) {
+        $b = htmlentities($var);
+    }
+} else {
+    $b = htmlentities($var);
+}
+
+echo $b;
