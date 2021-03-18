@@ -12,7 +12,7 @@ if ($mode) {
 }
 
 function test($abc) {
-    return $abc . "test"
+    return $abc . "test";
 }
 
 echo $b;
